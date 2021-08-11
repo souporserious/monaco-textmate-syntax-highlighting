@@ -35,4 +35,4 @@ export type FileFormat = {
   /** The current level we're operating on with -1 being the root. */
   level: number;
 };
-`
+`.trimStart()

@@ -1,32 +1,28 @@
 {
-  "name": "monaco-highlighting",
+  "name": "monaco-textmate-syntax-highlighting",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "convert-theme": "node convert-theme.js"
+    "build": "next build; next export"
   },
   "dependencies": {
-    "@monaco-editor/loader": "^1.1.1",
     "@types/react": "^17.0.15",
+    "color": "^4.0.1",
     "css-loader": "^6.2.0",
     "file-loader": "^6.2.0",
     "monaco-editor": "^0.26.1",
     "monaco-editor-textmate": "^3.0.0",
     "monaco-editor-webpack-plugin": "^4.1.1",
     "monaco-textmate": "^3.0.1",
-    "monaco-vscode-textmate-theme-converter": "^0.1.6",
     "next": "^11.0.1",
-    "next-transpile-modules": "^8.0.0",
-    "object-compact": "^1.0.1",
     "onigasm": "^2.2.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "style-loader": "^3.2.1",
     "typescript": "^4.3.5",
-    "url-loader": "^4.1.1",
-    "vscode-textmate": "^5.4.0"
+    "url-loader": "^4.1.1"
   }
 }

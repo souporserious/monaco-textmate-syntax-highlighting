@@ -1,8 +1,10 @@
 import { loadWASM } from 'onigasm'
 import { Registry } from 'monaco-textmate'
 import { wireTmGrammars } from 'monaco-editor-textmate'
-import theme from './monaco-night-owl.json'
+
 import codeString from './code'
+import defineTheme from './define-theme'
+import theme from './vscode-night-owl.json'
 
 export async function init(container) {
   const monaco = await import('monaco-editor')
@@ -33,12 +35,12 @@ export async function init(container) {
   grammars.set('javascript', 'source.js')
   grammars.set('typescript', 'source.ts')
 
-  monaco.editor.defineTheme('night-owl', theme)
+  defineTheme(monaco, theme)
 
   const editor = monaco.editor.create(container, {
     value: codeString,
     language: 'typescript',
-    theme: 'night-owl',
+    theme: 'CodeSandbox',
   })
 
   await wireTmGrammars(monaco, registry, grammars, editor)
