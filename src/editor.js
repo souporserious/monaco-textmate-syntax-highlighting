@@ -35,13 +35,12 @@ export async function init(container) {
   grammars.set('javascript', 'source.js')
   grammars.set('typescript', 'source.ts')
 
-  defineTheme(monaco, theme)
-
   const editor = monaco.editor.create(container, {
     value: codeString,
     language: 'typescript',
-    theme: 'CodeSandbox',
   })
+
+  defineTheme(monaco, theme)
 
   await wireTmGrammars(monaco, registry, grammars, editor)
 }
