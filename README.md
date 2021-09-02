@@ -1,10 +1,10 @@
 # Monaco TextMate Syntax Highlighting
 
-This is an example of how to set up TextMate grammars for Monaco in a simple NextJS app.
+This is an example of how to set up [TextMate grammars](https://macromates.com/manual/en/language_grammars) for [Monaco Editor](https://microsoft.github.io/monaco-editor/) in a simple [NextJS](https://nextjs.org/) app.
 
-## Grammar Languages
+## Language Grammars
 
-Copy any relevant grammar languages found [here](https://github.com/microsoft/vscode-textmate/blob/main/test-cases/themes/syntaxes).
+Copy any relevant language grammars found [here](https://github.com/microsoft/vscode-textmate/blob/main/test-cases/themes/syntaxes).
 
 ## Resources
 
