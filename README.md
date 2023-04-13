@@ -1,6 +1,6 @@
 # Monaco TextMate Syntax Highlighting
 
-This is an example of how to set up [TextMate grammars](https://macromates.com/manual/en/language_grammars) for [Monaco Editor](https://microsoft.github.io/monaco-editor/) in a simple [NextJS](https://nextjs.org/) app.
+This is an example of how to set up [TextMate grammars](https://macromates.com/manual/en/language_grammars) for [Monaco Editor](https://microsoft.github.io/monaco-editor/) in a simple [Next.js](https://nextjs.org/) app.
 
 ## Language Grammars
 
